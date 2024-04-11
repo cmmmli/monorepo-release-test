@@ -18,5 +18,21 @@
     "packages/eslint-config": { "component": "eslint-config" },
     "packages/typescript-config": { "component": "typescript-config" },
     "packages/ui": { "component": "ui" }
-  }
+  },
+  "plugins": [
+    {
+      "type": "linked-versions",
+      "groupName": "web",
+      "components": [
+        "web"
+      ]
+    },
+    {
+      "type": "linked-versions",
+      "groupName": "docs",
+      "components": [
+        "docs"
+      ]
+    }
+  ]
 }
