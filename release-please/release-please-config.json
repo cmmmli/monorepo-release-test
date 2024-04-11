@@ -22,16 +22,9 @@
   "plugins": [
     {
       "type": "linked-versions",
-      "groupName": "web",
+      "groupName": "default applications",
       "components": [
-        "web"
-      ]
-    },
-    {
-      "type": "linked-versions",
-      "groupName": "docs",
-      "components": [
-        "docs"
+        "web", "docs"
       ]
     }
   ]
