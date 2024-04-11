@@ -5,6 +5,10 @@ on:
       releases_created:
         description: "Whether GitHub Releases has been created or not."
         value: ${{ jobs.release-please.outputs.releases_created }}
+    secrets:
+      PAT:
+        description: "Personal Access Token for GitHub API."
+        required: true
 
   workflow_dispatch:
 jobs:

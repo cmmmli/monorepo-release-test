@@ -12,6 +12,8 @@ on:
 jobs:
   release-please:
     uses: cmmmli/monorepo-release-test/.github/workflows/release-please.yml@main
+    secrets:
+      PAT: ${{ secrets.PAT }}
 
   detect-changes:
     runs-on: ubuntu-latest
