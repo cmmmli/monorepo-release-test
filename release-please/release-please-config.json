@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+
+  "bootstrap-sha": "5acf3056d9416626903bc40fcdc90848ec4610bf",
+
+  "release-type": "node",
+  "separate-pull-requests": false,
+  "include-component-in-tag": true,
+  "bump-minor-pre-major": true,
+  "changelog-sections": [
+    { "type": "feat", "section": "Features", "hidden": false },
+    { "type": "fix", "section": "Bug Fixes", "hidden": false },
+    { "type": "chore", "section": "Miscellaneous", "hidden": false }
+  ],
+  "packages": {
+    "apps/docs": { "component": "docs" },
+    "apps/web": { "component": "web" },
+    "packages/eslint-config": { "component": "eslint-config" },
+    "packages/typescript-config": { "component": "typescript-config" },
+    "packages/ui": { "component": "ui" }
+  }
+}

@@ -1,0 +1,38 @@
+name: release-main
+
+permissions:
+  contents: write
+  id-token: write
+  pull-requests: write
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  release-please:
+    uses: cmmmli/monorepo-release-test/.github/workflows/release-please.yml@main
+
+  detect-changes:
+    runs-on: ubuntu-latest
+    outputs:
+      changed_packages: ${{ steps.detect-changes.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # 直前のcommitとの差分を比較するためにfetch-depthを2に設定
+          fetch-depth: 2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
+        with:
+          version: 8
+          run_install: false
+      - name: Detect packages with change
+        id: detect-changes
+        run: |
+          changed=$(pnpm --filter "...[HEAD^]" list -r --depth -1 --json | jq -c '.|map(.name)');
+          echo "changed=$changed";
+          echo "changed=$changed" >> $GITHUB_OUTPUT
