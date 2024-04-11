@@ -1,0 +1,35 @@
+name: release-please
+on:
+  workflow_call:
+    outputs:
+      releases_created:
+        description: "Whether GitHub Releases has been created or not."
+        value: ${{ jobs.release-please.outputs.releases_created }}
+
+  workflow_dispatch:
+jobs:
+  release-please:
+    permissions:
+      contents: write
+      pull-requests: write
+      id-token: write
+    runs-on: ubuntu-latest
+    outputs:
+      releases_created: ${{ steps.release.outputs.releases_created }}
+      tag_name: ${{ steps.release.outputs.tag_name }}
+    steps:
+      - name: release-please-action
+        id: release
+        uses: google-github-actions/release-please-action@v4
+        with:
+          # GITHUB_TOKEN では release イベントが発火しないので、PAT のトークンを使用する。
+          # https://docs.github.com/en/actions/using-workflows/triggering-a-workflow#triggering-a-workflow-from-a-workflow
+          # https://github.com/google-github-actions/release-please-action/blob/v4.0.2/README.md#github-credentials
+          token: ${{ secrets.PAT }}
+          config-file: release-please/release-please-config.json
+          manifest-file: release-please/.release-please-manifest.json
+
+      - name: print output
+        shell: bash
+        run: |
+          echo 'output.releases_created: ${{ steps.release.outputs.releases_created }}'
