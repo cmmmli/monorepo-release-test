@@ -22,9 +22,16 @@
   "plugins": [
     {
       "type": "linked-versions",
-      "groupName": "default applications",
+      "groupName": "defaultApps",
       "components": [
         "web", "docs"
+      ]
+    },
+    {
+      "type": "linked-versions",
+      "groupName": "otherPackages",
+      "components": [
+        "ui", "eslint-config", "typescript-config"
       ]
     }
   ]
