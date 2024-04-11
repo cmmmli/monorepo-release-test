@@ -4,7 +4,7 @@
   "bootstrap-sha": "5acf3056d9416626903bc40fcdc90848ec4610bf",
 
   "release-type": "node",
-  "separate-pull-requests": false,
+  "separate-pull-requests": true,
   "include-component-in-tag": true,
   "bump-minor-pre-major": true,
   "changelog-sections": [
