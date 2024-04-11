@@ -1,6 +1,6 @@
 {
-  "apps/web": "1.0.0",
-  "apps/docs": "1.0.0",
+  "apps/web": "1.0.1",
+  "apps/docs": "1.0.1",
   "packages/eslint-config": "0.0.0",
   "packages/typescript-config": "0.0.0",
   "packages/ui": "0.0.0"
