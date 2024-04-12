@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/cmmmli/monorepo-release-test/compare/docs-v1.0.2...docs-v1.0.3) (2024-04-12)
+
+
+### Miscellaneous
+
+* **docs:** Synchronize docs versions
+
 ## [1.0.2](https://github.com/cmmmli/monorepo-release-test/compare/docs-v1.0.1...docs-v1.0.2) (2024-04-12)
 
 
