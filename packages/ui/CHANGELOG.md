@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/cmmmli/monorepo-release-test/compare/ui-v1.0.1...ui-v1.0.2) (2024-04-12)
+
+
+### Miscellaneous
+
+* **ui:** Synchronize web versions
+
 ## 1.0.1 (2024-04-12)
 
 
