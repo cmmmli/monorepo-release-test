@@ -17,21 +17,22 @@
     "apps/web": { "component": "web" },
     "packages/eslint-config": { "component": "eslint-config" },
     "packages/typescript-config": { "component": "typescript-config" },
-    "packages/ui": { "component": "ui" }
+    "packages/ui": { "component": "ui" },
+    "apps/server": { "component": "server", "release-type": "simple" }
   },
   "plugins": [
     {
       "type": "linked-versions",
       "groupName": "web",
       "components": [
-        "web", "ui", "eslint-config", "typescript-config"
+        "web", "server"
       ]
     },
     {
       "type": "linked-versions",
       "groupName": "docs",
       "components": [
-        "docs", "ui", "eslint-config", "typescript-config"
+        "docs"
       ]
     }
   ]
