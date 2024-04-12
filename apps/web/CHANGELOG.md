@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/cmmmli/monorepo-release-test/compare/web-v1.0.0...web-v1.0.1) (2024-04-12)
+
+
+### Miscellaneous
+
+* modify web ([fb61595](https://github.com/cmmmli/monorepo-release-test/commit/fb615957e772a3425b400d56dabd4ccf191627a1))
+
 ## [1.0.0](https://github.com/cmmmli/monorepo-release-test/compare/web-v1.0.3...web-v1.0.0) (2024-04-12)
 
 
