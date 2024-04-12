@@ -15,9 +15,6 @@
   "packages": {
     "apps/docs": { "component": "docs" },
     "apps/web": { "component": "web" },
-    "packages/eslint-config": { "component": "eslint-config" },
-    "packages/typescript-config": { "component": "typescript-config" },
-    "packages/ui": { "component": "ui" },
     "apps/server": { "component": "server", "release-type": "simple" }
   },
   "plugins": [
