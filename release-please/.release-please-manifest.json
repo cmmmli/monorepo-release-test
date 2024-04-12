@@ -1,8 +1,8 @@
 {
-  "apps/web": "1.2.0",
-  "apps/docs": "1.2.0",
-  "packages/eslint-config": "1.2.0",
-  "packages/typescript-config": "1.2.0",
-  "packages/ui": "1.2.0",
-  "apps/server": "1.2.0"
+  "apps/web": "1.2.1",
+  "apps/docs": "1.2.1",
+  "packages/eslint-config": "1.2.1",
+  "packages/typescript-config": "1.2.1",
+  "packages/ui": "1.2.1",
+  "apps/server": "1.2.1"
 }
