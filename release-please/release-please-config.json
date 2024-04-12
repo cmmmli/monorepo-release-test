@@ -4,7 +4,7 @@
   "bootstrap-sha": "5acf3056d9416626903bc40fcdc90848ec4610bf",
 
   "release-type": "node",
-  "separate-pull-requests": true,
+  "separate-pull-requests": false,
   "include-component-in-tag": true,
   "bump-minor-pre-major": true,
   "changelog-sections": [
@@ -22,16 +22,16 @@
   "plugins": [
     {
       "type": "linked-versions",
-      "groupName": "defaultApps",
+      "groupName": "web",
       "components": [
-        "web", "docs"
+        "web", "ui", "eslint-config", "typescript-config"
       ]
     },
     {
       "type": "linked-versions",
-      "groupName": "otherPackages",
+      "groupName": "docs",
       "components": [
-        "ui", "eslint-config", "typescript-config"
+        "docs", "ui", "eslint-config", "typescript-config"
       ]
     }
   ]
