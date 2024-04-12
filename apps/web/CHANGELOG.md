@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/cmmmli/monorepo-release-test/compare/web-v1.2.1...web-v1.2.2) (2024-04-12)
+
+
+### Miscellaneous
+
+* add 'ku' ([a981c38](https://github.com/cmmmli/monorepo-release-test/commit/a981c3830eb63df3d74ece1780c4241b0ce565c5))
+
 ## [1.2.1](https://github.com/cmmmli/monorepo-release-test/compare/web-v1.2.0...web-v1.2.1) (2024-04-12)
 
 
