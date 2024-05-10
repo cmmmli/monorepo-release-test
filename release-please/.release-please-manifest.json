@@ -1,5 +1,6 @@
 {
   "apps/web": "1.2.2",
   "apps/docs": "1.2.1",
-  "apps/server": "1.2.2"
+  "apps/server": "1.2.2",
+  "packages/hello": "0.0.0"
 }

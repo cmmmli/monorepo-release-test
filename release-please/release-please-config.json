@@ -15,14 +15,15 @@
   "packages": {
     "apps/docs": { "component": "docs" },
     "apps/web": { "component": "web" },
-    "apps/server": { "component": "server", "release-type": "simple" }
+    "apps/server": { "component": "server", "release-type": "simple" },
+    "packages/hello": { "component": "hello", "skip-github-release": true }
   },
   "plugins": [
     {
       "type": "linked-versions",
       "groupName": "web",
       "components": [
-        "web", "server"
+        "web", "server", "hello"
       ]
     },
     {
