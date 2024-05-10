@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.3](https://github.com/cmmmli/monorepo-release-test/compare/server-v1.2.2...server-v1.2.3) (2024-05-10)
+
+
+### Miscellaneous
+
+* release main ([#17](https://github.com/cmmmli/monorepo-release-test/issues/17)) ([288a053](https://github.com/cmmmli/monorepo-release-test/commit/288a0533ac0ddef2da09cbd3b8e954aad2c07042))
+
 ## [1.2.2](https://github.com/cmmmli/monorepo-release-test/compare/server-v1.2.1...server-v1.2.2) (2024-04-12)
 
 
