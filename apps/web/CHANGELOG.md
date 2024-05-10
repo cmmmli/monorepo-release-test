@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.0](https://github.com/cmmmli/monorepo-release-test/compare/web-v1.2.2...web-v1.0.0) (2024-05-10)
+
+
+### Miscellaneous
+
+* **web:** Synchronize web versions
+
 ## [1.2.2](https://github.com/cmmmli/monorepo-release-test/compare/web-v1.2.1...web-v1.2.2) (2024-04-12)
 
 
