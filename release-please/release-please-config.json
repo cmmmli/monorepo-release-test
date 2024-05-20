@@ -16,7 +16,7 @@
     "apps/docs": { "component": "docs" },
     "apps/web": { "component": "web" },
     "apps/server": { "component": "server", "release-type": "simple" },
-    "packages/hello": { "component": "hello", "skip-github-release": true }
+    "packages/hello": { "component": "hello" }
   },
   "plugins": [
     {
